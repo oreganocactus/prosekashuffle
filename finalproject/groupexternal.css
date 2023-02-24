@@ -1,0 +1,91 @@
+#sidebarclicktoselect{
+    margin-top: 5px;
+    padding: 0px;
+}
+#content{
+    float: right;
+    width: 740px;
+    height: auto;
+    margin: 20px;
+    padding: 30px;
+    background-color: AliceBlue;
+}
+h2{
+    font-family: Ponyo;
+    font-size: 40px;
+    margin: 0px;
+}
+#sidebar{
+    float: left;
+    width: 150px;
+    height: auto;
+    padding: 30px;
+    background-color: Gainsboro;
+    text-align: center;
+    z-index: 1;
+    margin: 20px;
+}
+.groups img {
+    height: 50px;
+    width: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+img{
+    width: auto;
+    height: 200px;
+}
+.groupname{
+    border: 2px solid Gainsboro;
+    text-align: center;
+}
+.member{
+    background-color: AliceBlue;
+    width: 180px;
+    height: auto;
+    float: left;
+    margin: auto;
+    border: 2px solid Gainsboro;
+    position: relative;
+}
+.member img{
+    height: 250px;
+}
+.member h3{
+    text-align: center;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#fff;
+    font-size: 20px;
+    position:absolute;
+    top:0;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    text-align:center;
+    visibility:hidden;
+    padding-top:5%;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 175px;
+    height: auto;
+}
+.member:hover .overlay {
+    visibility:visible;
+}
+#music{
+    text-align: center;
+    margin: auto;
+}
+#music p{
+    font-size: 30px;
+}
+#groupdes{
+    font-size: 20px;
+    text-align: center;
+}
+.currentgroup{
+    border: 3px solid grey;
+    padding: 5px;
+}

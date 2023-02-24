@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jihyun/Blake La | Calendar</title>
+	<link href="external.css" rel="stylesheet">
+	<style>
+		h2{
+			text-align: center;
+		}
+		#main p{
+			font-size: 17px;
+		}
+		.submissions{
+			margin-left: 50px;
+			margin-right: 50px;
+		}
+		#form{
+			margin: 0px auto;
+			background-color: AliceBlue;
+			margin-top: 30px;
+			margin-bottom:30px;
+			font-size: 20px;
+			line-height: 50px;
+			padding: 20px;
+		}
+		#multiline-id{
+			width: 400px;
+			height: auto;
+		}
+		#form h3{
+			text-align: center;
+			font-size: 30px;
+			border: 2px solid black;
+			background-color: Gainsboro;
+		}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1>Project Sekai: Colorful Stage</h1>
+	</div>
+
+
+<div id="navbar">
+		<div id="nav">
+
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="feedback.html" class="current">Feedback</a></li>
+			</ul>
+
+			<div class="clearfloat"></div>
+
+		</div>
+</div>
+
+
+	<div id="main">
+		<div id="form">
+		<form action="confirmation.html">
+			<h2>Please submit any feedback about the game or any questions below.</h2>
+			
+			<h3>User information</h3>
+			<div class="submissions">
+			<label for="text-id"><b>Name: </b></label>
+			<input type="text" id= "text-id" placeholder= "Firstname Lastname" required><br>
+			<label for="email-id"><b>Email: </b></label>
+			<input type="email" id= "email-id" placeholder= "yourmailaddress@gmail.com" required><br>
+
+			<label><b>Region: </b></label><br>
+			<label><input type="radio" name="region" value="noa">North America</label><br>
+			<label><input type="radio" name="region" value="jpn">Japan</label><br>
+			<label><input type="radio" name="region" value="kr">Korea</label><br>
+			<label><input type="radio" name="region" value="twn">Taiwan</label><br>
+
+			<label><b>Age: </b></label><br>
+			<label><input type="radio" name="age" value="1">13 - 15</label><br>
+			<label><input type="radio" name="age" value="2">16 - 18</label><br>
+			<label><input type="radio" name="age" value="3">18 - 25</label><br>
+			<label><input type="radio" name="age" value="4">25+</label><br>
+
+			<label><b>Devices: </b></label>
+			<label><input type="checkbox" name="d1" value="iphone">iPhone</label>
+			<label><input type="checkbox" name="d2" value="android">Android</label>
+			<label><input type="checkbox" name="d3" value="ipad">iPad</label>
+			<label><input type="checkbox" name="d2" value="emulator">Emulator</label>
+			<label><input type="checkbox" name="d2" value="other">Other</label><br>
+
+			</div>
+
+			<h3>Feedback</h3>
+
+			<div class="submissions">
+			<label for="multiline-id"><b>General Feedback: </b></label>
+			<textarea id= "multiline-id" placeholder= "Feedback here..."></textarea><br>
+			<label for="storyml-id"><b>Story Feedback: </b></label>
+			<textarea id= "storyml-id" placeholder= "Feedback here..."></textarea><br>
+			<label for="techml-id"><b>Technical Feedback: </b></label>
+			<textarea id= "techml-id" placeholder= "Feedback here..."></textarea><br>
+
+			</div>
+			
+			<h3>Group Queries (Optional)</h3>
+				
+			<div class="submissions">
+			<label for="dropdown-id"><b>Group Selection: </b></label>
+			<select id="dropdown-id" name="dropdown">
+				<option value="g0">Select a group name</option>
+				<option value="g1">Ori/Zuru</option>
+				<option value="g2">Moonlight Yume</option>
+				<option value="g3">Fever ★ Break</option>
+				<option value="g4">Fire Up!! Tori!!!</option>
+				<option value="g5">VR SHOWDOWN</option>
+			</select><br>
+
+
+			<label for="feedbackml-id"><b>Feedback: </b></label>
+			<textarea id= "feedbackml-id" placeholder= "Feedback here..."></textarea><br>
+			</div>
+
+			<h3>Form Submission</h3>
+			<div class="submissions">
+			<p>With the submission of this form, I agree that any provided personal information is free to be used in whatever manner the company sees fit for analyzing demographic data. I recognize that the feedback submitted will not necessarily be implemented and should the company utilize any of this feedback, I am not owed any royalties or contributional repayments.</p>
+			<label>I accept the terms and conditions.</label>
+			<label><input type="checkbox" name="tandc" required></label><br>
+			</div>
+
+			<button type="submit">Submit Form</button>
+			<button type="reset">Reset Form</button>
+			
+		</form>
+	</div>
+	</div>
+	<div id="footer">
+		<p>All assets and characters belong to Crypton Media and associated companies for Project Sekai. Play now on the app store. </p>
+	</div>
+
+
+
+
+</body>
+</html>
